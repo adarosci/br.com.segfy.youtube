@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.segfy.youtube", "br.com.segfy.youtube\br.com.segfy.youtube.csproj", "{5381F371-DCE1-4E23-A760-1D3F8654132E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.segfy.youtube.api", "br.com.segfy.youtube.api\br.com.segfy.youtube.api.csproj", "{6F5C640B-6EF9-4360-B68D-B4C35D3FD874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.segfy.youtube.repository", "br.com.segfy.youtube.repository\br.com.segfy.youtube.repository.csproj", "{F71CCD77-C25D-4F93-826E-5F814665A9E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.segfy.youtube.infra", "br.com.segfy.youtube.infra\br.com.segfy.youtube.infra.csproj", "{E7CAA772-1492-45E7-9A24-15B654A6D21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.segfy.youtube.domain", "br.com.segfy.youtube.domain2\br.com.segfy.youtube.domain.csproj", "{AEA248B5-EE66-4B16-B86F-F2BC2B96A844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5381F371-DCE1-4E23-A760-1D3F8654132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5381F371-DCE1-4E23-A760-1D3F8654132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5381F371-DCE1-4E23-A760-1D3F8654132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5381F371-DCE1-4E23-A760-1D3F8654132E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5C640B-6EF9-4360-B68D-B4C35D3FD874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5C640B-6EF9-4360-B68D-B4C35D3FD874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5C640B-6EF9-4360-B68D-B4C35D3FD874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5C640B-6EF9-4360-B68D-B4C35D3FD874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71CCD77-C25D-4F93-826E-5F814665A9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71CCD77-C25D-4F93-826E-5F814665A9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71CCD77-C25D-4F93-826E-5F814665A9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71CCD77-C25D-4F93-826E-5F814665A9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CAA772-1492-45E7-9A24-15B654A6D21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CAA772-1492-45E7-9A24-15B654A6D21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CAA772-1492-45E7-9A24-15B654A6D21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CAA772-1492-45E7-9A24-15B654A6D21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA248B5-EE66-4B16-B86F-F2BC2B96A844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA248B5-EE66-4B16-B86F-F2BC2B96A844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA248B5-EE66-4B16-B86F-F2BC2B96A844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA248B5-EE66-4B16-B86F-F2BC2B96A844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1BB32CF-0A2B-4C86-AF86-C859F3CACE63}
+	EndGlobalSection
+EndGlobal

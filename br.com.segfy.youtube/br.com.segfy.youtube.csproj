@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\br.com.segfy.youtube.api\br.com.segfy.youtube.api.csproj" />
+    <ProjectReference Include="..\br.com.segfy.youtube.domain2\br.com.segfy.youtube.domain.csproj" />
+    <ProjectReference Include="..\br.com.segfy.youtube.repository\br.com.segfy.youtube.repository.csproj" />
+  </ItemGroup>
+
+</Project>
